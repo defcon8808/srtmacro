@@ -27,6 +27,12 @@ SRT Macro는 매진된 SRT 승차권 예매를 도와주는 크롬 확장 프로
 - 예약 완료시 트럼펫 사운드가 재생되므로 빠른 결제를 위해 **스피커**를 켜두시길 권장합니다.
 - SR 시스템 상 **20분** 내로 결제를 해야 예약이 완료되므로 주의하시길 바랍니다.
 
+## 텔레그램 봇 관련
+
+- 텔레그램 **Bot** 생성 및 **Bot Token** 값 생성 방법 
+- 텔레그램 **Chat ID** 생성 방법
+[참조](https://github.com/enriqueserr9119/telegram-crypto-bot#create-a-telegram-bot)
+
 ## License
 
 MIT License
