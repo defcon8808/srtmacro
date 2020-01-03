@@ -17,9 +17,9 @@ SRT Macro는 매진된 SRT 승차권 예매를 도와주는 크롬 확장 프로
 
 ## 옵션
 
-**"Exclude Merge Ticket"** - 병합발권(입석+좌석) 을 제외할 것인지 선택합니다.(Default : true)
-**"Bot Token"** - 텔레그램 BOT 토큰 값을 입력합니다. (Optional)
-**"Your Telegram Chat ID"** - 텔레그램 Chat ID 값을 입력합니다. (Optional)
+- **"Exclude Merge Ticket"** : 병합발권(입석+좌석) 을 제외할 것인지 선택합니다.(Default : true)
+- **"Bot Token"** : 텔레그램 BOT 토큰 값을 입력합니다. (Optional)
+- **"Your Telegram Chat ID"** : 텔레그램 Chat ID 값을 입력합니다. (Optional)
 
 ## 주의 사항
 
