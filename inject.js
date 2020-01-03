@@ -2,7 +2,7 @@ window.showModalDialog = window.showModalDialog || function(url, arg, opt) {
 	window.open(url, arg, opt);
 };
 
-function macro() {
+function macrostart() {
 	coachSelected = [].map.call(document.querySelectorAll('.coachMacro:checked'), function (select) {
 		return select.value;
 	});
