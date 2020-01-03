@@ -8,10 +8,18 @@ SRT Macro는 매진된 SRT 승차권 예매를 도와주는 크롬 확장 프로
 
 ## 사용 방법
 
-1. [SRT Macro 크롬 확장 프로그램](https://chrome.google.com/webstore/detail/srt-macro/oofechbikbkcmfajkbmmlbhabaanohkg) 또는 [SRT Macro 웨일 확장앱](https://store.whale.naver.com/detail/dlcfaklgoocomhegkjadjedjodnjgopc)을 설치합니다.
-2. [SR 홈페이지](https://etk.srail.co.kr/main.do)에 접속해 로그인을 합니다.
-3. 로그인 후, 원하는 날짜와 시간을 선택하고 '조회하기'를 누르면 **매크로 시작** 버튼이 생긴 것을 확인할 수 있습니다. 이 때, 원하는 열차의 **매크로 체크박스**를 누르고 **매크로 시작** 버튼을 누르면 프로그램이 시작됩니다.
-3. 예약이 성공하면 트럼펫 소리와 함께 결제 화면으로 넘어갑니다.
+1. GitHub 소스를 로컬에 내려받아 압축을 해제한 후, [크롬 확장 프로그램](chrome://extensions/) 으로 들어갑니다.
+2. 우측 상단에 **개발자 모드** 를 클릭하면 하단에 추가된 메뉴 중 **압축해제된 확장 프로그램을 로드합니다.** 를 클릭합니다.
+3. **1번 항목** 에서 압축해제한 폴더를 선택하여 **폴더 선택** 을 클릭합니다.
+4. [SR 홈페이지](https://etk.srail.co.kr/main.do)에 접속해 로그인을 합니다.
+5. 로그인 후, 원하는 날짜와 시간을 선택하고 '조회하기'를 누르면 **매크로 시작** 버튼이 생긴 것을 확인할 수 있습니다. 이 때, 원하는 열차의 **매크로 체크박스**를 누르고 **매크로 시작** 버튼을 누르면 프로그램이 시작됩니다.
+6. 예약이 성공하면 트럼펫 소리와 함께 결제 화면으로 넘어갑니다.
+
+## 옵션
+
+**"Exclude Merge Ticket"** - 병합발권(입석+좌석) 을 제외할 것인지 선택합니다.(Default : true)
+**"Bot Token"** - 텔레그램 BOT 토큰 값을 입력합니다. (Optional)
+**"Your Telegram Chat ID"** - 텔레그램 Chat ID 값을 입력합니다. (Optional)
 
 ## 주의 사항
 
